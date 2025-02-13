@@ -15,4 +15,4 @@ Brand Style Guide:
 - Headers: Bold in Hex Color #ccf381
 - Primary Page Background: Hex color #ffffff
 - Background Containers: Primary Hex Color #3d155f 
-- Primary Font: Open Sauce 2
+- Primary Font: Fredoka
