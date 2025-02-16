@@ -143,3 +143,29 @@ header {
     height: 100%;
 
 }
+
+.portfolio{
+    display: grid;
+    width: 100%;
+    padding-top: 60px;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+}
+
+.portContainer1{
+    background-color: #4831d4;
+    padding-left: 50px;
+    color:#ccf381;
+}
+
+.portContainer2{
+    background-color: #4831d4;
+    padding-left: 50px;
+    color:#ccf381
+}
+
+.portContainer3{
+    background-color: #4831d4;
+    padding-left: 50px;
+    color:#ccf381
+}
