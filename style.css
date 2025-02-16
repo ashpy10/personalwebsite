@@ -1,0 +1,145 @@
+html{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width:100%;
+    padding-top: 100px;
+}
+
+.content{
+    background-color: #4831d4;
+    color: #ccf381;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+h1{
+    color: #4831d4;
+}
+h2{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.subtitle{
+    color: #ccf381;
+    font-size: 18px;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.highLights{
+    display: flex;
+    gap: 40px; 
+    margin-top: 40px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.heroImage{
+    background-color: #ccf381;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.heroImage img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #4831d4;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    list-style: none;
+    display: flex; 
+    gap: 15px;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;;
+}
+
+.aboutContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width:100%;
+    padding-top: 100px;
+}
+
+.container1{
+    background-color: #4831d4;
+    display: flex;
+    flex-direction: column;
+    color:#ccf381;
+    padding: 20px;
+    height: 100%;
+}
+
+.container2{
+    background-color:#ccf381;
+    display: flex;
+    flex-direction: column;
+    color:#4831d4;
+    padding: 20px;
+    height: 100%;
+}
+
+.container3{
+    background-color: #ccf381;
+    display: flex;
+    flex-direction: column;
+    color: #4831d4;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.container4{
+    background-color:#4831d4;
+    display: flex;
+    flex-direction: column;
+    color:#ccf381;
+    padding: 20px;
+    height: 100%;
+
+}
