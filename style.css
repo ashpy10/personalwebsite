@@ -62,8 +62,8 @@ h2{
     transition: width 2s, height 2s, rotate 2s;
 }
 
-.highLights:hover{
-    rotate:360deg;
+.highlights:hover {
+    rotate: 360deg;
 }
 
 .heroImage{
