@@ -33,6 +33,14 @@ body{
 h1{
     color: #4831d4;
 }
+
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;;
+}
+
 h2{
     font-weight: bold;
     font-size: 60px;
@@ -51,7 +59,7 @@ h2{
     margin-top: 40px;
     font-size: 18px;
     max-width: 600px;
-    transition: rotate 2s;
+    transition: width 2s, height 2s, rotate 2s;
 }
 
 .highlights:hover {
@@ -116,6 +124,7 @@ header {
     height: 100vh;
     width:100%;
     padding-top: 100px;
+    border: 5px solid white;
 }
 
 .container1{
@@ -127,6 +136,10 @@ header {
     height: 100%;
 }
 
+.container1 :hover {
+    background-color: black;
+}
+
 .container2{
     background-color:#ccf381;
     display: flex;
@@ -134,6 +147,10 @@ header {
     color:#4831d4;
     padding: 20px;
     height: 100%;
+}
+
+.container2 :hover {
+    background-color: black;
 }
 
 .container3{
@@ -146,6 +163,10 @@ header {
 
 }
 
+.container3 :hover {
+    background-color: black;
+}
+
 .container4{
     background-color:#4831d4;
     display: flex;
@@ -156,33 +177,42 @@ header {
 
 }
 
+.container4 :hover {
+    background-color: black;
+}
+
 .portfolio{
-    display: grid;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 100px;
     height: auto;
+    display: block;
+    border: 5px solid white
+
 }
 
 .portContainer1{
     background-color: #4831d4;
-    padding-left: 50px;
     color:#ccf381;
     border: 5px solid #ccf381;
+    display: flex;
+    justify-content: center;
 }
 
 .portContainer2{
     background-color: #4831d4;
-    padding-left: 50px;
     color:#ccf381;
     border: 5px solid #ccf381;
+    display: flex;
+    justify-content: center;
 }
 
 .portContainer3{
     background-color: #4831d4;
-    padding-left: 50px;
     color:#ccf381;    
     border: 5px solid #ccf381;
     width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -219,21 +249,28 @@ header {
 }
 
 .contact{
-    padding-top: 100px;
-    text-align: center;
+    padding:100px;
     background-color: #4831d4;
+    color: #ccf381;
     height: 100%;
     width: 100%;
-    color:#ccf381;
-}
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid white
 
-h3{
-    font-size: 24px;
-    font-weight: 100;
 }
 
 .contactForm{
-    gap:20px;
-    justify-content: space-around;
-    column-gap: 50px;
+    display: flex;
+    justify-content: center;
+    border: 5px dotted #ccf381;
 }
+
+@media (max-width: 650px){
+    .contactForm{
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+
